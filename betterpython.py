@@ -1,6 +1,6 @@
 #ternary condition
 condition = True
-x = 1 if condition else x = 0
+x = 1 if condition else 0
 
 #Large numbers
 ternary condition
