@@ -3,7 +3,7 @@ condition = True
 x = 1 if condition else 0
 
 #Large numbers
-ternary condition
+# ternary condition
 n1 = 10_000_000_000
 n2 = 100_000_000
 total = n1+n2
@@ -12,7 +12,7 @@ print(f'{total:,}')
 
 #enumerate - display the position of the value in the list
 names = ['David', 'Fisher', 'Davidson', 'Yoda']
-or index, name in enumerate(names, start=1):
+for index, name in enumerate(names, start=1):
   print(index, name)
 
 1 David
@@ -21,7 +21,7 @@ or index, name in enumerate(names, start=1):
 4 Yoda
 
 # unpacking multiple lists
-python unpack multiple lists together 
+# python unpack multiple lists together 
 titles = ['Mr', 'Ms', 'Mrs', 'Mr']
 names = ['David', 'Diana', 'Mor', 'Joe']
 for name, title in zip(names, titles):
